@@ -1,4 +1,4 @@
-function login() {
+function SingUp() {
     return (
         <div class="col-lg-7">
         <form action="forms/quote.php" method="post" class="php-email-form">
@@ -42,4 +42,4 @@ function login() {
     );
   }
   
-  export default login;
+  export default SingUp;
