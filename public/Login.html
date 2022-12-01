@@ -88,56 +88,45 @@
       </nav>
     </div><!-- End Breadcrumbs -->
 
-      <!-- ======= Pricing Section ======= -->
-      <section id="pricing" class="pricing">
-        <div class="container" data-aos="fade-up">
-  
-          <div class="row gy-4">
-  
-            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-              <div class="pricing-item">
-                <h3>Registro</h3>
-                <ul>
-                  <li><i class="bi bi-check"></i> Crea un usuario</li>
-                  <li><i class="bi bi-check"></i> Programa envíos</li>
-                  <li><i class="bi bi-check"></i> Haz segumiento</li>
-                </ul>
-                <a href="SingUp.html" class="buy-btn">Registro</a>
-              </div>
-            </div><!-- End Pricing Item -->
-  
-            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-              <div class="pricing-item featured">
-                <h3>Inicia Sesión</h3>
+    <!-- ======= Get a Quote Section ======= -->
+    <section id="get-a-quote" class="get-a-quote">
+      <div class="container" data-aos="fade-up">
 
-                <ul>
-                  <li><i class="bi bi-check"></i> Programa envíos</li>
-                  <li><i class="bi bi-check"></i> Haz segumiento</li>
-                  <li><i class="bi bi-check"></i> Revisa tu historial</li>
+        <div class="row g-0">
 
-                </ul>
-                <a href="Login.html" class="buy-btn">Inicia Sesión</a>
-              </div>
-            </div><!-- End Pricing Item -->
-  
-            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-              <div class="pricing-item">
-                <h3>Recuperar contraseña</h3>
-            
-                <ul>
-                  <li><i class="bi bi-check"></i> Recupera tu contraseña</li>
-                  <li><i class="bi bi-check"></i> Cambia tu contraseña</li>
-                  <li><i class="bi bi-check"></i> Resetea tu contraseña</li>
+          <div class="col-lg-5 quote-bg" style="background-image: url(assets/img/quote-bg.jpg);"></div>
 
-                </ul>
-                <a href="Password.html" class="buy-btn">Recuperar</a>
+          <div class="col-lg-7">
+            <form action="forms/quote.php" method="post" class="php-email-form">
+              <h3>Inicia Sesión</h3>
+              <p></p>
+              <div class="row gy-4">
+    
+                 <div class="col-md-12 ">
+                  <input type="email" class="form-control" name="email" placeholder="Correo" required></input>
+                </div>
+    
+               
+                <div class="col-md-12">
+                  <input type="password" class="form-control" name="phone" placeholder="Contraseña" required></input>
+                </div>
+    
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
+    
+                  <button type="submit">Ingresar</button>
+                </div>
+    
               </div>
-            </div><!-- End Pricing Item -->
-  
+            </form>
           </div>
-  
+
         </div>
-      </section><!-- End Pricing Section -->
+
+      </div>
+    </section><!-- End Get a Quote Section -->
 
   </main><!-- End #main -->
 

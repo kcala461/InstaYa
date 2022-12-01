@@ -6,13 +6,7 @@ function ILogin() {
           <p></p>
           <div class="row gy-4">
 
-            
-
-           
-
-           
-
-            <div class="col-md-12 ">
+             <div class="col-md-12 ">
               <input type="email" class="form-control" name="email" placeholder="Correo" required></input>
             </div>
 

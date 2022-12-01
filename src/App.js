@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import homeMain from './components/homeMain';
 import Counter from './components/Counter';
-import login from './components/login.Js';
+import login from './components/SingUp.Js';
 import { Fragment } from 'react';
 import forgetpassword from './components/forgetpassword';
 
@@ -18,8 +18,6 @@ function App() {
   <forgetpassword />
   <Counter />
   <Footer />
-
-  
   </Fragment>
   );
 }
